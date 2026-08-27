@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY RAKSHA BANDHAN 🌸</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Turn music on">
+        <span aria-hidden="true">♫</span> Music: Off
+    </button>
+
+    <div id="loader">
+        <div class="loader-rakhi">🪷</div>
+        <div class="loader-text">रक्षा बंधन</div>
+    </div>
+
+    <section class="hero">
+        <h1>🌸 रक्षा बंधन की हार्दिक शुभकामनाएँ 🌸</h1>
+    </section>
+
+     <section class="message-section">
+        <div class="message-box">
+            <h2>❤️ My Dear Sister ❤️</h2>
+            <div class="heart-line">🪷 🌺 🪷</div>
+            <p>
+            Wishing you a very Happy Raksha Bandhan.
+            🎀💖 May you always be happy, confident and successful.
+            Keep chasing your dreams and never stop smiling.
+            I’m always here for you! ❤️✨
+        </p>
+        <div class="sub-wish">✨ Your Brother Chamatkar Singh ✨</div>
+        </div>
+    </section>
+
+    <div class="photo-viewer" id="photoViewer" role="dialog" aria-modal="true" aria-label="Photo memories" aria-hidden="true">
+        <button class="viewer-close" type="button" aria-label="Close photo gallery">×</button>
+        <div class="viewer-track" id="viewerTrack" tabindex="0"></div>
+        <div class="viewer-controls" aria-label="Photo navigation">
+            <button class="viewer-arrow" id="viewerLeft" type="button" aria-label="View previous photo">←</button>
+            <button class="viewer-arrow" id="viewerRight" type="button" aria-label="View next photo">→</button>
+        </div>
+    </div>
+
+    <section class="mystery-section" aria-labelledby="mysteryTitle">
+        <div class="mystery-container">
+            <h2 id="mysteryTitle">A Special Surprise</h2>
+            <p class="mystery-hint">Click the gift box to reveal a wish!</p>
+            <button class="mystery-box" id="mysteryBox" type="button" aria-expanded="false" aria-describedby="mysteryHint">
+                <span class="gift-lid" aria-hidden="true"></span>
+                <span class="gift-body" aria-hidden="true"></span>
+                <span class="sr-only">Open the mystery gift</span>
+            </button>
+            <p class="mystery-hint" id="mysteryHint">A little surprise is waiting for you.</p>
+        </div>
+    </section>
+
+   
+
+    <footer>❤️ Be Happy And Enjoy Your Day ❤️</footer>
+    <script src="script.js"></script>
+</body>
+</html>
